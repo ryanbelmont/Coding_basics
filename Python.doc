@@ -11,6 +11,5 @@ Lists:
 dictionary:
   my_dict = {'alex':5, 'ben':10}
   my_dict['ryan'] = 15
-  if key in my_dic.keys():
-    print("Present, ", end =" ")
+  if key in my_dic.keys:
     print("value =", my_dic[key])
