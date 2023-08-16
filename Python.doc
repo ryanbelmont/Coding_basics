@@ -6,6 +6,7 @@ Lists:
   prepend: mylist.instert(0, x)
   append: mylist.append(x)
   declare: mylist = []
+  length = len(mylist)
 
 dictionary:
   my_dict = {'alex':5, 'ben':10}
