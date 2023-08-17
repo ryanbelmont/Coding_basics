@@ -4,11 +4,36 @@ public class HelloWorld {
 		System.out.println("\n Hello World ");
   }
 }
-//////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         
     }
 }
 
-////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+// Import the HashMap class
+import java.util.HashMap;
+
+public class Main {
+  public static void main(String[] args) {
+    // Create a HashMap object called capitalCities
+    HashMap<String, String> capitalCities = new HashMap<String, String>();
+
+    // Add keys and values (Country, City)
+    capitalCities.put("England", "London");
+    capitalCities.put("Germany", "Berlin");
+    capitalCities.put("Norway", "Oslo");
+    capitalCities.put("USA", "Washington DC");
+    System.out.println(capitalCities);
+  }
+}
+
+functions: .get(), .remove(), .clear(), .size(), {bool} .containsKey()
+
+// Print keys and values
+for (String i : capitalCities.keySet()) { 		// can also use for arrays
+  System.out.println("key: " + i + " value: " + capitalCities.get(i));
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////
